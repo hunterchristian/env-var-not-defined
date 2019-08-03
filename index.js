@@ -5,7 +5,7 @@ class ElementNotFound extends Error {
   }
 }
 
-export default (envVar) => {
+module.exports = (envVar) => {
   const MAYBE_ENV_VAR = process.env[envVar];
   if (!MAYBE_ENV_VAR) {
     throw new ElementNotFound(envVar);
