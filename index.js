@@ -10,4 +10,6 @@ export default (envVar) => {
   if (!MAYBE_ENV_VAR) {
     throw new ElementNotFound(envVar);
   }
+
+  return MAYBE_ENV_VAR;
 }

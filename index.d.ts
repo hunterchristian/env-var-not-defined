@@ -1,2 +1,2 @@
-declare const EnvVarNotDefined: (envVar: string) => void;
-export default EnvVarNotDefined;
+declare const getEnvVarIfDefined: (envVar: string) => string;
+export default getEnvVarIfDefined;
