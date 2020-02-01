@@ -6,4 +6,6 @@ If an environment variable is not defined on `process.env`, exits the process wi
 ```
 const getEnvVarIfDefined = require('@hunterhod/env-var-not-defined');
 const YOUR_ENVIRONMENT_VARIABLE = getEnvVarIfDefined('YOUR_ENVIRONMENT_VARIABLE');
+
+// ...some code that uses YOUR_ENVIRONMENT_VARIABLE
 ```
