@@ -1,5 +1,5 @@
 # env-var-not-defined
-If an environment variable is not defined (i.e. process.env.MY_ENV_VAR is undefined), exits the process with an error message
+If an environment variable is not defined on `process.env`, exits the process with an error message
 ## Install
 `npm i @hunterhod/env-var-not-defined`
 ## Usage
